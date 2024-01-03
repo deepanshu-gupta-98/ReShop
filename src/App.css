@@ -1,0 +1,355 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .footer{
+  background-color: #554f4f;
+}
+.card-img-top{
+  height: 200px;
+  width: 350px;
+  overflow: hidden;
+  object-fit: contain;
+} 
+
+.card{
+  display: inline flex;
+  width: 370px;
+  height: 450px !important;
+  
+}
+
+.carousel-inner img{
+  width: 100% !important;
+  height: 60vh !important;
+}
+
+/* .btn{
+  background-color: #8993d2;
+} */
+
+ .background{
+  background-image:url("https://e1.pxfuel.com/desktop-wallpaper/407/1022/desktop-wallpaper-website-backgrounds-login-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* backdrop-filter:blur(70px); */
+ }
+  .bg{
+
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/014/468/621/small/abstract-digital-technology-background-with-concept-security-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  #footer {
+    background: #F0F0E9;
+    padding-top: 57px;
+}
+
+.footer-top {
+    width: 1170px;
+    display: flex;
+    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #e0e0da;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+
+}
+
+.left25 {
+    /* float: left; */
+    width: 25%;
+    padding: 0 20px;
+}
+
+.left25 h2 {
+    color: #b4b1ab;
+    font-family: 'Abel';
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.left25 h2 span {
+    color: #fe980f;
+}
+
+.left25 p {
+    color: #b3b3ad;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.right75 {
+    /* float: right; */
+    width: 70%;
+    display: flex;
+}
+
+.center {
+    flex: 7;
+}
+
+.center .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+    padding-top: 0 20px;
+    /* flex-direction: row; */
+}
+
+.gallary {
+    flex: 1;
+    height: 100%;
+    margin: 0 2px;
+    text-align: center;
+}
+
+.iframe-img {
+    position: relative;
+    display: block;
+    height: 61px;
+    margin-bottom: 10px;
+    border: 2px solid #ccccc6;
+    border-radius: 3px;
+}
+
+.gallary p {
+    color: #8c8c88;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.gallary h2 {
+    color: #8c8c88;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.side {
+    flex: 3;
+}
+
+.map {
+    flex: 1;
+    /* margin-left: 70px; */
+    position: relative;
+    margin: 0 66px;
+}
+
+.map p {
+    color: #666663;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+/* .footer-top::after {
+    display: block;
+    content: "";
+    clear: both;
+} */
+.footer-mid {
+    margin-bottom: 68px;
+}
+
+.footer-mid .wrap {
+    /* border-top: 1px solid #fff; */
+    width: 1170px;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+}
+
+.footer-mid .wrap .left {
+    flex: 7;
+    display: flex;
+    border: none !important;
+}
+
+.footer-mid .wrap .left .one {
+    flex: 2;
+}
+
+.footer-mid .wrap .left .one h2,
+.footer-mid .wrap .right h2 {
+    color: #666663;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-right: 65px;
+}
+
+.footer-mid .wrap .left .one ul li {
+    list-style: none;
+}
+
+.footer-mid .wrap .left .one ul li a {
+    text-decoration: none;
+    color: #8c8c88;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+    /* position: relative; */
+    display: block;
+    text-transform: capitalize;
+    /* text-align: left; */
+}
+
+.footer-mid .wrap .right {
+    flex: 3;
+    border: none !important;
+}
+
+.searchform input {
+    border: 1px solid #dddddd;
+    color: #ccccc6;
+    font-family: 'roboto';
+    font-size: 14px;
+    margin-top: 0;
+    outline: medium none;
+    padding: 7px;
+    width: 212px;
+}
+
+.searchform button {
+    background: #fe980f;
+    border: medium none;
+    border-radius: 0;
+    margin-left: -5px;
+    margin-top: -3px;
+    padding: 7px 17px;
+}
+
+.searchform button i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa .fa-arrow-circle-o-right {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 500;
+}
+
+.searchform p {
+    color: #8c8c88;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-left: -100px;
+}
+
+.footer-end{
+    background: #d6d6d0;
+    width: 100%;
+    padding: 5px 0;
+}
+.container6{
+    position: relative;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.pull-left, .pull-right{
+    flex: 1;
+}
+.pull-left p, .pull-right p{
+    color: #363432;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 300;
+}
+.pull-right a{
+    text-decoration: none;
+    color: #fe980f;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.contact{
+    border: #282c34 solid;
+    width: 550px;
+    height: 390px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    opacity: 0px;
+
+}
+
+/* .text{
+    justify-content:center!important;
+} */
+
+
+
+.cuimg{
+    background-image: url("https://images.unsplash.com/photo-1505409859467-3a796fd5798e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHZpZGVvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    height: 800px;
+    
+}
+
+/* .about{
+    background-image: url("https://images01.nicepagecdn.com/page/69/48/web-page-design-preview-69484.jpg");
+    height: ;
+    width: 800px;
+} */
+
